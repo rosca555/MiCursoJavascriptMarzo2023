@@ -1,4 +1,4 @@
-function sayHello() {
+/* function sayHello() {
     //alert("Hola mundo")
 
     // Vanilla JS version
@@ -15,6 +15,7 @@ function sayHello() {
     .getElementById("helloBtn")
     .addEventListener("click", sayHello) */
 
+/*
 // jquery
 $("#helloBtn").on("click", sayHello)
 
@@ -60,4 +61,13 @@ $("#changeImgBtn").on("click", function() {
     }
 
     kitty = !kitty
-})
+}) */
+
+$( "#datepicker" ).datepicker({
+    firstDay: 1,
+    dateFormat: "dd-mm-yy",
+    dayNamesMin: [ "Do", "Lu", "Ma", "Mi", "Ju", "Vi", "Sa" ],
+    monthNames: [ "Enero", "Febrero", "Marzo", "April", "Maj", "Juni", "Juli", "August", "September", "Oktober", "November", "December" ],   
+  
+});
+
