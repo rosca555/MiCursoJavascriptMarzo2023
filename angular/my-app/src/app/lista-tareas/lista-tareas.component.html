@@ -1,0 +1,19 @@
+<!-- <h2>Detalle de tarea</h2>
+<div><span>Tarea: </span>{{tarea1.texto}}</div>
+<div><span>Prioridad: </span>{{tarea1.prioridad}}</div>
+
+<h2>Detalle de tarea</h2>
+<div><span>Tarea: </span>{{tarea2.texto}}</div>
+<div><span>Prioridad: </span>{{tarea2.prioridad}}</div>
+
+
+<ul class="tareas">
+        <li>{{tarea1.texto}}</li>
+        <li>{{tarea1.prioridad}}</li>    
+</ul> -->
+
+<ul class="tareas2">
+    <li *ngFor="let tarea of listaTareas">
+        {{tarea.texto}} : {{tarea.prioridad}}
+    </li>
+</ul>
